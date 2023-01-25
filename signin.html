@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In Page</title>
+    <style>
+      body{
+        
+        align-items: center;
+       background-color: lightblue;
+      }
+      #myDiv {
+        border: 1px solid #FF0000;
+        margin: 2cm 4cm 3cm 2cm;
+      }
+      .bodyText{
+        text-align:"center"; 
+        border:"1 "; 
+        
+      }
+    .table{
+      margin-left:auto;
+      margin-right:auto; 
+      
+      align-content: center;
+      background-color: rgb(93, 123, 194);
+      height: 100px;
+      width: 100px;
+      }
+      .container{
+   
+        background-color: rgb(33, 115, 222);
+        color: white;
+        font-family: 'Archivo Black', sans-serif;
+        height: 50px;
+
+      }
+    </style>
+ </head>
+<body class="bodytext">
+  <div class="container">
+    <h1 style="text-align: center;">FOOTWORLD</h1>
+  </div>
+
+    <br><br><br><br>
+    <img src="C:\Users\Vipul Varshney\Desktop\html classes\Assignment 1\download.png" alt="Nike Footwear" class="Footwear">
+  <form>
+    <table class="table">
+        <tr><th>
+          <label for="username"><b>Username</b></label></th></tr>
+        <tr><td>
+        <input type="text" placeholder="Enter Username" name="uname" required></td></tr>
+        <tr>
+        <th><label for="password"><b>Password</b></label></th></tr>
+        <tr>
+        <td><input type="password" placeholder="Enter Password" name="psw" required></td></tr>
+        <tr><th align="center">
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label></th></tr>
+        <tr><td>
+        <button onclick="document.getElementById('id01').style.display='Create Username'">Login</button></td>
+        </tr><br>
+        <tr><th>
+        <a href="C:\Users\Vipul Varshney\Desktop\html classes\Assignment 1\11.html" onclick=signup()>Create New User</a></th></tr>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <tr><td>
+        <a href="">Forgotpassword</a>
+      </td></tr></table></div>
+  </form>
+  <button onclick=back()>BACK</button>
+  <script src="index.js"></script>
+</body>
+</html>

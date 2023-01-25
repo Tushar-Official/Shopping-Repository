@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css" class="css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@500;600&family=Open+Sans:wght@600&family=Raleway:ital,wght
+@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&family=Secular+One&display=swap" rel="stylesheet">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="head">
+        <h1>FOOTWORLD</h1>
+    </div>
+    <br/>
+    <div class="items">
+        <h2>Your Cart Items </h2>
+    </div>
+    
+    <div class="order">
+        <table>
+           <tr>
+            <td>
+                <div class="details">
+            <img src="./images/image1.jpg">
+            <p>Formal Shoes</p>
+            <p id="price">1299</p>
+            <button id="addshoes" onclick=add()>+</button>
+            <input type="text" value="0" id="changevalue"/>
+            <button id="subshoes" onclick=sub()>-</button>
+           </div>
+            </td>
+    </tr>
+    <br>
+    <tr>
+            <td>
+                <div class="details">
+            <img src="./images/image2.webp">
+            <p>Sandals</p>
+            <p id="newprice">1199</p>
+            <button id="addsandal" onclick=addsan()>+</button>
+            <input type="text" value="0" id="valuechange"/>
+            <button id="subsandal" onclick=subsan()>-</button>
+        </td>
+    </tr>
+        </table>
+    </div>
+
+    <div class="pay">
+        <button>PLACE ORDER</button>
+    </div>
+   
+    <div class="back">
+        <button onclick=back()>BACK</button>
+    </div>
+    <div class="footer">
+        
+            <div class="icons">
+                <img src="images/icons.webp" alt=""/>
+                <p style="font-weight: lighter;">FOOTWORLD</p>
+                <p style="font-weight: lighter;">Info.Support.Marketing</p>
+                <p style="font-weight: lighter;">copyright @2023 HubSpot.Inc</p>
+    
+            
+    </div>
+    <script src="cart.js"></script>
+</body>
+</html>
